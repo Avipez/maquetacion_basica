@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+
 
 body{
+    font-family: "Roboto Mono", monospace;
     margin: 0;
     padding: 0;
+
+}
+
+.index_body{
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+}
 
+.grid_conteiner{
+    max-width: 980px;
+    margin: auto;
 }
 
 a{
@@ -59,7 +71,7 @@ nav .logo_conteiner{
 }
 
 nav .logo_conteiner img{
-    width: 300px;
+    width: 220px;
     margin-top: 10px;
 }
 
@@ -75,10 +87,128 @@ nav .profile_link a{
     border-bottom: 1px black;
 }
 
-main img{
-/*     width: 100%;
- *//*     height: 100%;
- */    object-fit: fill;
- text-align: center;
- flex-shrink: 1;
+.home_main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 80%;
+    background-image: url("../estilos/oblivia.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.home_main section{
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+}
+
+.home_main_text{
+    font-family: "Roboto mono", monospace;
+    color: white;
+    font-size: 30px;
+    font-weight: 800px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.home_main_button{
+    width: 110px;
+    height: 80px;
+    background-color: #47cfac;
+    display: grid;
+    align-items: center;
+}
+
+.home_main_button a{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.blogs_main{
+    display: grid;
+
+}
+
+.blogs_news_conteiner{
+    background-color: #e0e3ea;
+    padding: 0 50px 40px;
+}
+
+.blogs_main_new{
+    display: grid;
+    grid-template: 2fr / 2fr 1fr ;
+}
+
+.blogs_news_img_conteiner{
+    grid-column: 1;
+
+}
+
+.blogs_news_img_conteiner img{
+    width: 85%;
+}
+
+.blogs_news_info_conteiner{
+    grid-column: 2 ;
+}
+
+.blogs_new_info_conteiner p{
+    margin-bottom: 35px;
+}
+
+
+.blogs_button{
+    border: 1px solid #47cfac;
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.blogs_button:hover {
+	border: 1px solid white;
+	color: white;
+	background-color: #48CFAD;
+}
+
+.blogs_posts_conteiner{
+    padding: 0 50px 40px;
+}
+
+.blogs_posts_conteiner div{
+    margin: 0 auto;
+}
+
+.blogs_posts_conteiner h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs_posts_conteiner .post_conteiner{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blogs_posts_conteiner .post_conteiner p{
+    margin-bottom: 35px;
+
+}
+
+.blogs_posts_conteiner .post_conteiner img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid #47cfac;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    margin-top: 30px;
 }
