@@ -91,7 +91,7 @@ nav .profile_link a{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 80%;
-    background-image: url("../estilos/oblivia.jpg");
+    background-image: url("assets/Cover.png");
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;

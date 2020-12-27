@@ -8,9 +8,9 @@
         max-width: 45%;
     }
 
-    .main_profile_proyects{
+    .profile_proyects_conteiner{
         grid-template-columns: 1fr;
-        grid-template-rows: 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .main_profile_intro .profile_conteiner{
@@ -19,7 +19,28 @@
 }
 
 @media(max-width: 600px){
+    
+    .icons_conteiner{
+        
+    }
+
+    .logo_conteiner{
+        margin: 0;
+    }
+
     .blogs_posts_conteiner .post_conteiner{
         max-width: 95%;
     }
+
+    .main_profile_intro div img{
+        margin: 0;
+        width: 200px;
+    }
+
+    .main_profile_intro div{
+        width: 200px;
+        margin: 0 auto; 
+    }
+
+    
 }
