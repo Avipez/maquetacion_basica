@@ -1,0 +1,25 @@
+@media(max-width: 900px){
+    .blogs_main_new{
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    .blogs_posts_conteiner .post_conteiner{
+        max-width: 45%;
+    }
+
+    .main_profile_proyects{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+
+    .main_profile_intro .profile_conteiner{
+        display: block;
+    }
+}
+
+@media(max-width: 600px){
+    .blogs_posts_conteiner .post_conteiner{
+        max-width: 95%;
+    }
+}
