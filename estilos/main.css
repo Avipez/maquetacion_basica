@@ -91,7 +91,7 @@ nav .profile_link a{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 80%;
-    background-image: url("assets/Cover.png");
+    background-image: url("./cover.jpg");
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -121,6 +121,10 @@ nav .profile_link a{
 }
 
 .home_main_button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
     font-weight: 700;
     font-size: 18px;
 }
