@@ -16,13 +16,15 @@
     .main_profile_intro .profile_conteiner{
         display: block;
     }
+
+    .profile_image_conteiner{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media(max-width: 600px){
     
-    .icons_conteiner{
-        
-    }
 
     .logo_conteiner{
         margin: 0;
@@ -41,6 +43,8 @@
         width: 200px;
         margin: 0 auto; 
     }
+
+    
 
     
 }
